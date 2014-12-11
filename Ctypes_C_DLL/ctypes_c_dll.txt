@@ -1,0 +1,8 @@
+#If you want to load a 32-bit DLL on Win64, use the 32-bit Python
+
+# dll.dll должна лежать в той же папке, что и .py
+# Func() - функция в dll.dll на C
+# Работает только на 32 битным, версиях Python
+from ctypes import *
+mydll = cdll.LoadLibrary("dll.dll") # подключаем нашу dll  
+print mydll.Func(100)
