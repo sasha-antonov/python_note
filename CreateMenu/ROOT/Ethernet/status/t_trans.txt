@@ -1,5 +1,0 @@
-access=100
-address=10000
-dhyas=asdgjas
-sadjkgyus=sdfjkfhsdjk
-asjkdgh=sdfjkhsd
